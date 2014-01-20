@@ -27,4 +27,9 @@ Things you may want to cover:
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
+To check the rewards of a client please follow these steps:
 
+1. In lib/tasks/example.rake enter a client's channels portfolio in the subscriptions variable
+2. In terminal run: rake eligibility:check_eligibility 
+
+Result: A list of rewards should be printed on the screen. 
